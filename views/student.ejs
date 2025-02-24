@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студенти</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список студентів</h1>
+        <% students.forEach(student => { %>
+            <div class="student-card">
+                <p>Ім'я: <%= student.name %></p>
+                <p>Вік: <%= student.age %></p>
+                <p>Група: <%= student.group %></p>
+            </div>
+        <% }) %>
+        <p><a href="/">Назад</a></p>
+    </div>
+</body>
+</html>

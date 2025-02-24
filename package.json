@@ -1,0 +1,16 @@
+{
+    "name": "bank_system",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "A bank system project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.10",
+        "express": "^4.21.2"
+    }
+}
